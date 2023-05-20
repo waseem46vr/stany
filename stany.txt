@@ -1,0 +1,34 @@
+to creat a new user as admin
+sudo adduser kevin
+id kevin
+sudo visudo
+blue lines will apper add kevin to admin
+ctrl+x
+logout 
+login you'll find kevin in admin
+
+
+
+linux commands
+mkdir -----to creat a diresctory 
+pwd ---present working directory
+ls ---list all files and directories
+ls-l ----listing of all files allong with attributes
+ls -a ----list all hidden files
+ls -r ----list all files and directory in reverse order
+ls -ld < directory name >
+ls -R <directory name>
+
+
+touch ----we can creat an empty file
+cat ---we can creat data file
+nano ---to add text file 
+
+head -n <no of files> (fie name)
+tail -n 20/etc/passwd
+mkdir -p <dir1/dir2/dir3> -----nested directory 
+cd .. ----to leave 
+rm <fike name > ---- to remove a fie 
+rmdir <dir.name> -----to remove an empty directory 
+cp<source> <destination>---to cpy a file
+cp -rf <source > <destionation>-----to copy entire directory alongb
